@@ -1,10 +1,21 @@
 # pages/views.py
+from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.http import HttpResponse
-from robot import ( GPIO, time ,TankMove, TankGPIO, Tank )
-
+from tank import *
 
 TM = Tank.getInstance()	
+
+def start_streaming(request):
+	try:
+		main()
+	except Exception as e:
+		result =  {"status": "failed", "output":str(e)}
+		html = "<html><body>Script status: %s \n Output: %s</body></html>" %(result['status'],result['output'])
+		return HttpResponse(html)
+
+def stream(request):
+	return render(request, 'camera.html')
 
 def index(request):
 	return render(request, 'index.html')

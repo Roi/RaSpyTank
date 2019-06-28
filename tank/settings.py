@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'camera'
+    'tank'
 ]
 
 MIDDLEWARE = [
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'tank.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/var/www/html/tank/camera/templates'], #os.path.join( BASE_DIR, "tank/templates")
+        'DIRS': ['/var/www/html/tank/tank/templates'], #os.path.join( BASE_DIR, "tank/templates")
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'camera.wsgi.application'
+WSGI_APPLICATION = 'tank.wsgi.application'
 
 
 # Database

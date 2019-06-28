@@ -1,4 +1,4 @@
-from robot import GPIO
+from tank import GPIO
 
 class TankGPIO:
 

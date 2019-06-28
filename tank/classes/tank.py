@@ -1,6 +1,6 @@
-from robot import GPIO 
-from robot import TankGPIO
-from robot import TankMove
+from tank import GPIO 
+from tank import TankGPIO
+from tank import TankMove
 
 class Tank(TankMove):
      __instance = None

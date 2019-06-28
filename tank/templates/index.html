@@ -5,16 +5,22 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-<script src="{% static "robot/js/index.js" %}?v=1.01"></script>
-<link rel="stylesheet" href="{% static "robot/css/index.css" %}?v=1.01" />
+<script src="{% static "tank/js/index.js" %}?v=1.01"></script>
+<link rel="stylesheet" href="{% static "tank/css/index.css" %}?v=1.01" />
 
 <div id="wrap">
+
     
-   
-    <iframe src="/camera/" style="width: 100%;height: 50%;" ></iframe>
 
     <table class="table table-borderless table-dark"  dir="rtl">
         
+        <tr>
+            <td colspan="3" rowspan="3" aligm="center" valign="middle">
+                <iframe src="/tank/stream/" scrolling="no" marginwidth="5" marginheight="5" frameborder="NO"  style="width: 640px;height: 480px;overflow: hidden;"></iframe>
+            </td>
+        </tr>
+       <tr></tr>
+       <tr></tr>
         <tr>
             <td>
                 <div class="tank-action oi oi-media-stop" data-action="e" data-title='gpio_cleanup' title='כיבוי תנועה'></div>
@@ -51,12 +57,13 @@
             </td>
         </tr>
 
+        
         <tr>
             <td>
-            <div class="tank-action oi oi-media-skip-forward" data-action="h" data-title='high' title='מהירות גבוהה'></div>
+                <div class="tank-action oi oi-media-skip-forward" data-action="h" data-title='high' title='מהירות גבוהה'></div>
             </td>
             <td>
-            <div class="tank-action oi oi-media-play" data-action="m" data-title='medium' title='מהירות בינונית'></div>
+                <div class="tank-action oi oi-media-play" data-action="m" data-title='medium' title='מהירות בינונית'></div>
             </td>
             <td>
                 <div class="tank-action oi oi-media-skip-backward" data-action="l" data-title='low' title='מהירות נמוכה'></div>
