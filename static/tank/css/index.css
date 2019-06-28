@@ -1,0 +1,4 @@
+body, html{height:100%}
+div#wrap{ margin: auto}
+table{ height:100%; text-align:center; font-size:7em ; }
+table td { vertical-align:middle !important;}

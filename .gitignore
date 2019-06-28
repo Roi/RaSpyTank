@@ -1,1 +1,3 @@
-.git
+*.log
+*.git
+tank/__pycache__/*-37*.pyc

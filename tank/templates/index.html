@@ -1,0 +1,65 @@
+
+{% load staticfiles %}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<script src="{% static "tank/js/index.js" %}?v=1.01"></script>
+<link rel="stylesheet" href="{% static "tank/css/index.css" %}?v=1.01" />
+
+<div id="wrap">
+
+    <table class="table table-borderless table-dark"  dir="rtl">
+        
+        <tr>
+            <td>
+                <div class="tank-action oi oi-media-stop" data-action="e" data-title='gpio_cleanup' title='כיבוי תנועה'></div>
+            </td>
+            <td>
+                <div class="tank-action oi oi-arrow-circle-top" data-action="f" data-title='move_forward' title='קדימה'></div>
+            </td>
+            <td>
+                <div class="tank-action oi oi-loop-circular" data-action="re" data-title='init_gpio' title='אתחול תנועה'></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="tank-action oi oi-arrow-circle-right" data-action="fr" data-title='move_forward_right' title='קדימה ימינה'></div>
+            </td>
+            <td>
+                <div class="tank-action oi oi-media-pause" data-action="s" data-title='stop' title='עצור תנועה'></div>
+            </td>
+            <td>
+                <div class="tank-action oi oi-arrow-circle-left" data-action="fl" data-title='move_forward_left' title='קדימה שמאלה'></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="tank-action oi oi-action-redo" data-action="br" data-title='move_backword_right' title='אחורה ימינה'></div>
+            </td>
+            <td>
+                <div class="tank-action oi oi-arrow-circle-bottom" data-action="b" data-title='move_backword' title='אחורה'></div>
+            </td>
+            <td>
+                <div class="tank-action oi oi-action-undo" data-action="bl" data-title='move_backword_left' title='אחורה שמאלה'></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+            <div class="tank-action oi oi-media-skip-forward" data-action="h" data-title='high' title='מהירות גבוהה'></div>
+            </td>
+            <td>
+            <div class="tank-action oi oi-media-play" data-action="m" data-title='medium' title='מהירות בינונית'></div>
+            </td>
+            <td>
+                <div class="tank-action oi oi-media-skip-backward" data-action="l" data-title='low' title='מהירות נמוכה'></div>
+            </td>
+        </tr>
+
+    </table>
+
+</div>
