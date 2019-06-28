@@ -12,16 +12,13 @@ import platform
 
 from django.core.wsgi import get_wsgi_application
 
-
-
 plt = platform.system()
+
 if plt =="Windows":
-    sys.path.insert(0, "c:/wamp64/www/tank")
+    sys_path = 'c:/wamp64/www/tank/robot/'
 elif plt =="Linux":
-    sys.path.insert(0, "/var/www/html/tank")
+    sys_path = '/var/www/html/tank/robot/'
 
-#print(sys.path)
-
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tank.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'robot.settings')
 
 application = get_wsgi_application()

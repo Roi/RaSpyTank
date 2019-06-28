@@ -1,18 +1,13 @@
 # pages/views.py
-from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.http import HttpResponse
-from tank import GPIO
-from tank import time
-from tank import TankMove
-from tank import TankGPIO
-from tank import Tank
+from robot import ( GPIO, time ,TankMove, TankGPIO, Tank )
+
 
 TM = Tank.getInstance()	
 
 def index(request):
 	return render(request, 'index.html')
-
 
 def move(request):
 	

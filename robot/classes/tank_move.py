@@ -1,5 +1,5 @@
-from tank import GPIO 
-from tank import TankGPIO
+from robot import GPIO 
+from robot import TankGPIO
 
 class TankMove(TankGPIO):
     def __init__(self):
