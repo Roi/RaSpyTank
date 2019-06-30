@@ -9,8 +9,6 @@ sudo apt-get -y install apache2
 # install mod-wsgi-py3 for apache2
 sudo apt-get install libapache2-mod-wsgi-py3
 
-sudo service apache2 restart
-
 # install pip3
 sudo apt-get -y install python3-pip
 
@@ -55,3 +53,4 @@ sudo service apache2 restart
 
 # allow GPIO from apache 
 sudo adduser www-data gpio
+sudo usermod -a -G video www-data
