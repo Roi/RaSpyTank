@@ -48,14 +48,14 @@ sudo ./insall.sh
 ## Usage
 Go to your raspberry pi ip / app folder
 
-![click to see on youtube](https://github.com/Roi/tank_robot_new/blob/master/images/web-remote-small.jpg)
+![click to see on youtube](https://github.com/Roi/Raspberry-Pi-Web-Contorlled-RC-Tank-Robot-Camera/blob/master/images/web-remote-small.jpg)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
 
-[![click to see on youtube](https://github.com/Roi/tank_robot_new/blob/master/images/tank1-small.jpg)](https://www.youtube.com/watch?v=tRUVguoNBvQ)
+[![click to see on youtube](https://github.com/Roi/Raspberry-Pi-Web-Contorlled-RC-Tank-Robot-Camera/blob/master/images/tank1-small.jpg)](https://www.youtube.com/watch?v=tRUVguoNBvQ)
 
-[![click to see on youtube](https://github.com/Roi/tank_robot_new/blob/master/images/tank2-small.jpg)](https://www.youtube.com/watch?v=8TKKN-tN8cY)
+[![click to see on youtube](https://github.com/Roi/Raspberry-Pi-Web-Contorlled-RC-Tank-Robot-Camera/blob/master/images/tank2-small.jpg)](https://www.youtube.com/watch?v=8TKKN-tN8cY)
 
