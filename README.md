@@ -1,4 +1,4 @@
-# RC Tank Robot Controlled By Web UI
+# Tank Robot Controlled By Web UI
 
 ## Table of contents
 * [General info](#general-info)
