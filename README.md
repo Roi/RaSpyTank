@@ -23,6 +23,8 @@ The goals of this project:
 * jQuery 1.11.1
 * Bootstrap 4.1.3
 * open ionic 1.1.1
+* ws4py
+* pistreaming
 
 ## Requirements
 * Raspberry Pi 3
