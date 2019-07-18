@@ -11,8 +11,8 @@
 ## General info
 The goals of this project:
 * Bring Tank Robot Chassis to life.
-* Build remote controll web ui 
-* Add RPi video camera and stream its data to the web ui 
+* Build remote control web UI 
+* Add RPi video camera and stream its data to the web UI
 * Add sensors like movement detect and distance measure
 
 ## Technologies
@@ -33,6 +33,7 @@ The goals of this project:
 * 2400mah 7.2v rechargeable battery pack
 * Power Bank
 * Breadboard + Jumper Wires
+* Raspberry Pi NoIR Camera V2
 
 ## Installation
 ```bash
