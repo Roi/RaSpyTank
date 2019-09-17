@@ -26,17 +26,34 @@ class TankGPIO:
         }
 
         self.inputsMapping = {
-            'rb' : 12, #right_back
-            'rf' : 11, #right_forward
-            're' : 18, #right_engine
-            'lb' : 13, #left_back
-            'lf' : 15, #left_forward
-            'le' : 16  #left_engine
+            'outputs' : {
+                'motor' : {
+                    'directions' : {
+                        'rb' : 12, #right_back
+                        'rf' : 11, #right_forward
+                        'lb' : 13, #left_back
+                        'lf' : 15, #left_forward
+                     },
+                    'engine' : {
+                        're' : 18, #right_engine,
+                        'le' : 16, #left_engine
+                    }
+                },
+                'sensors' : {
+                  'distance' : {
+                    'tr' : 7, #trig
+                  }
+                }
+            },
+            'inputs' : {
+                'sensors' : {
+                  'distance' : {
+                    'ec' : 22, #echo
+                  }
+                }
+            }
         }
-
-        self.directionsInputs = [ 'rf', 'lf', 'rb', 'lb' ]
-
-        self.engineInputs = [ 're', 'le' ]
+        
 
         
    

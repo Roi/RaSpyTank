@@ -17,6 +17,9 @@ def start_streaming(request):
 def stream(request):
 	return render(request, 'camera.html')
 
+def distance(request):
+	return HttpResponse(TM.calc_distance())
+	
 def index(request):
 	return render(request, 'index.html')
 

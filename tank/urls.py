@@ -21,6 +21,7 @@ from .views import *
 urlpatterns = [
     path('', index, name='index'),
     path('start_streaming/', start_streaming, name='start_streaming'),
+    path('distance/', distance, name='distance'),
     path('stream/', stream, name='stream'),
     path('move/', move, name='move'),
     path('admin/', admin.site.urls),
