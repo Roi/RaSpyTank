@@ -34,6 +34,7 @@ The goals of this project:
 * Power Bank
 * Breadboard + Jumper Wires
 * Raspberry Pi NoIR Camera V2
+* HC-SR04 - Ultrasonic Sensor
 
 ## Installation
 ```bash
@@ -51,7 +52,7 @@ sudo ./insall.sh
 ## Usage
 Go to your raspberry pi ip / app folder
 
-[![click to see on youtube](https://github.com/Roi/Raspberry-Pi-Web-Contorlled-RC-Tank-Robot-Camera/blob/master/images/web-remote-small.jpg)](https://youtu.be/-1FfxnhEL5M)
+[![click to see on youtube](https://github.com/Roi/Raspberry-Pi-Web-Contorlled-RC-Tank-Robot-Camera/blob/master/images/tankrobot_distance_small.jpg)](https://youtu.be/-1FfxnhEL5M)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
