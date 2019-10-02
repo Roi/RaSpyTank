@@ -1,7 +1,7 @@
 # RaSpyTank
 Raspberry Pi Python spy tank robot
 
-[![click to see on youtube](https://github.com/Roi/Raspberry-Pi-Web-Contorlled-RC-Tank-Robot-Camera/blob/master/images/tank2-small.jpg)](https://robot.tpors.com)
+[![click to see on youtube](https://github.com/Roi/Raspberry-Pi-Web-Contorlled-RC-Tank-Robot-Camera/blob/master/images/tank2-medium.jpg)](https://robot.tpors.com)
 
 ## Table of contents
 * [General info](#general-info)
