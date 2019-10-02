@@ -56,10 +56,11 @@ Go to your raspberry pi ip / app folder
 
 [![click to see on robot.tpors.com](https://github.com/Roi/Raspberry-Pi-Web-Contorlled-RC-Tank-Robot-Camera/blob/master/images/distance-sensor-small.jpg)](https://robot.tpors.com)
 
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
 [![click to see on robot.tpors.com](https://github.com/Roi/Raspberry-Pi-Web-Contorlled-RC-Tank-Robot-Camera/blob/master/images/tank2-rear-small.jpg)](https://robot.tpors.com)
 
 [![click to see on robot.tpors.com](https://github.com/Roi/Raspberry-Pi-Web-Contorlled-RC-Tank-Robot-Camera/blob/master/images/tank2-front-small.jpg)](https://robot.tpors.com)
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
 
