@@ -1,7 +1,7 @@
 # RaSpyTank
 Raspberry Pi Python spy tank robot
 
-[![click to see on robot.tpors.com](https://github.com/Roi/Raspberry-Pi-Web-Contorlled-RC-Tank-Robot-Camera/blob/master/images/tank2-medium.jpg)](https://robot.tpors.com)
+[![click to see on robot.tpors.com](https://github.com/Roi/Raspberry-Pi-Web-Contorlled-RC-Tank-Robot-Camera/blob/master/images/tank2-medium.jpg)](https://youtu.be/8TKKN-tN8cY)
 
 ## Table of contents
 * [General info](#general-info)
@@ -54,13 +54,13 @@ sudo ./insall.sh
 ## Usage
 Go to your raspberry pi ip / app folder
 
-[![click to see on robot.tpors.com](https://github.com/Roi/Raspberry-Pi-Web-Contorlled-RC-Tank-Robot-Camera/blob/master/images/distance-sensor-small.jpg)](https://robot.tpors.com)
+[![click to see on robot.tpors.com](https://github.com/Roi/Raspberry-Pi-Web-Contorlled-RC-Tank-Robot-Camera/blob/master/images/distance-sensor-small.jpg)](https://youtu.be/8TKKN-tN8cY)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-[![click to see on robot.tpors.com](https://github.com/Roi/Raspberry-Pi-Web-Contorlled-RC-Tank-Robot-Camera/blob/master/images/tank2-rear-small.jpg)](https://robot.tpors.com)
+[![click to see on robot.tpors.com](https://github.com/Roi/Raspberry-Pi-Web-Contorlled-RC-Tank-Robot-Camera/blob/master/images/tank2-rear-small.jpg)](https://youtu.be/8TKKN-tN8cY)
 
-[![click to see on robot.tpors.com](https://github.com/Roi/Raspberry-Pi-Web-Contorlled-RC-Tank-Robot-Camera/blob/master/images/tank2-front-small.jpg)](https://robot.tpors.com)
+[![click to see on robot.tpors.com](https://github.com/Roi/Raspberry-Pi-Web-Contorlled-RC-Tank-Robot-Camera/blob/master/images/tank2-front-small.jpg)](https://youtu.be/8TKKN-tN8cY)
 
 
